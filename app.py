@@ -1,9 +1,4 @@
 from flask import Flask, request, render_template, redirect, url_for, flash
-import os
-from flask.ext.sqlalchemy import SQLAlchemy
-import socket
-
-#SendGrid
 
 app = Flask(__name__)
 
