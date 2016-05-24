@@ -179,7 +179,7 @@ hr.small {
 
 /* Services */
 
-.services {
+.why {
     padding: 50px 0;
 }
 
@@ -203,20 +203,16 @@ hr.small {
 
 /* Portfolio */
 
-.portfolio {
+.photo {
     padding: 50px 0;
 }
 
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
+.img-photo {
     padding: 5px;
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
+.img-photo:hover {
     opacity: 0.8;
 }
 
@@ -228,22 +224,6 @@ hr.small {
 
 .call-to-action .btn {
     margin: 10px;
-}
-
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-.map iframe{
-    pointer-events: none;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
 }
 
 /* Footer */
