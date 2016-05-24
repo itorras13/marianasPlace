@@ -6,6 +6,7 @@
   position: relative;
   text-align: center;
   cursor: default;
+  color: #FFF;
 }
 
 .hovereffect .overlay {
@@ -59,6 +60,10 @@
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0,-100%,0);
   transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a {
+  text-decoration: underline;
 }
 
 .hovereffect a, .hovereffect p {
